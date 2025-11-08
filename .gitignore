@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+yolo-env1/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# YOLO specific
+runs/
+wandb/
+*.avi
+*.mp4
+capture.png
+demo1.avi
+
+# TensorBoard
+events.out.tfevents.*
+
+# Large model files (keep only essential ones)
+# Uncomment if you want to exclude large model files
+# *.pt
+
+# Output videos and images
+output/
+results/
