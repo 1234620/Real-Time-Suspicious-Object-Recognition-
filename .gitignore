@@ -47,3 +47,6 @@ events.out.tfevents.*
 # Output videos and images
 output/
 results/
+
+# Weapon detection evidence (snapshots + CSV log)
+detections/
